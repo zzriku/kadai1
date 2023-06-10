@@ -13,6 +13,8 @@ main {
   max-width: 960px;
   margin: 50px auto;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .step-box {
@@ -64,11 +66,13 @@ main {
 footer {
   height: 50px;
   background-color: #aaa;
+  margin-top: 50px;
 }
 
 @media (max-width: 768px) {
   main {
     flex-direction: column;
+    align-items: center;
   }
 
   .step-box {
@@ -79,5 +83,5 @@ footer {
 
   .step-box:last-child {
   margin-right: auto;
-}
+  }
 }
