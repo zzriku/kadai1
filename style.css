@@ -13,7 +13,6 @@ main {
   max-width: 960px;
   margin: 50px auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -23,6 +22,7 @@ main {
   padding: 10px;
   position: relative;
   background-color: #eee;
+  flex-grow: 1;
 }
 
 .step-box:last-child {
